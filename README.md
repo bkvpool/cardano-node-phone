@@ -5,8 +5,7 @@ This guide will help you run a Cardano node on your Android phone using Termux a
 
 ## Prerequisites
 
-1. Android phone
-2. Termux app (Install from [F-Droid](https://f-droid.org/en/packages/com.termux/) or [GitHub](https://github.com/termux/termux-app))
+Android phone with a lot of memory (minimum 12GB) and storage (minimum 200GB)
 
 ## Steps
 
@@ -29,22 +28,13 @@ This guide will help you run a Cardano node on your Android phone using Termux a
 
 - Download the latest Cardano-node and Cardano-CLI binaries compiled for ARM64 from the Armada Alliance:
 
-  ```bash
-  wget https://github.com/armada-alliance/cardano-node-binaries/releases/download/latest/cardano-node-linux-arm64.tar.gz
-  tar -xzf cardano-node-linux-arm64.tar.gz -C /root/bin
-  ```
+https://github.com/armada-alliance/cardano-node-binaries
 
 ### 4. Download Cardano Config Files and Genesis Files
 
 - Download the Cardano configuration files and genesis files from the official Cardano documentation:
 
-  ```bash
-  wget -P /root/cnode/config https://book.world.dev.cardano.org/environments/mainnet-config.json
-  wget -P /root/cnode/config https://book.world.dev.cardano.org/environments/mainnet-topology.json
-  wget -P /root/cnode/config https://book.world.dev.cardano.org/environments/byron-genesis.json
-  wget -P /root/cnode/config https://book.world.dev.cardano.org/environments/shelley-genesis.json
-  wget -P /root/cnode/config https://book.world.dev.cardano.org/environments/alonzo-genesis.json
-  ```
+https://book.world.dev.cardano.org/environments/
 
 ### 5. Run the Node
 

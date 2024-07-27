@@ -118,7 +118,3 @@ https://book.world.dev.cardano.org/environments/
 
 - Ensure that your phone has sufficient storage and is connected to a stable internet connection.
 - Regularly update your Cardano binaries and configuration files to stay in sync with the network.
-
----
-
-Feel free to modify and enhance this documentation based on your specific requirements. If you have any questions or need further assistance, let me know!

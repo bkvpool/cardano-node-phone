@@ -113,9 +113,6 @@ https://book.world.dev.cardano.org/environments/
   ./check-sync.sh
   ```
 
-## Approximate Sync Times
-
-- **Mainnet**: 24-48 hours
 
 ## Additional Notes
 
